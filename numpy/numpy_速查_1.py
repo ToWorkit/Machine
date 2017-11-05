@@ -207,15 +207,15 @@ c = np.add(a, b)
 print(c)
 
 # axis
-# 列
+# 行
 a = a.repeat(5, axis=1)
 print(a)
-# 行
+# 列
 b = b.repeat(6, axis=0)
 print(b)
-# 行
-print(np.add.reduce([[1,2,3], [4,5,6]]))
 # 列
+print(np.add.reduce([[1,2,3], [4,5,6]]))
+# 行
 print(np.add.reduce([[1,2,3], [4,5,6]], axis=1))
 
 
