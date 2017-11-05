@@ -214,6 +214,7 @@ print(a)
 b = b.repeat(6, axis=0)
 print(b)
 # 列
+# reduce -> 指定轴 默认为列
 print(np.add.reduce([[1,2,3], [4,5,6]]))
 # 行
 print(np.add.reduce([[1,2,3], [4,5,6]], axis=1))
