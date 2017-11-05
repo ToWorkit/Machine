@@ -206,7 +206,7 @@ print(b)
 c = np.add(a, b)
 print(c)
 
-# axis
+# axis -> 这家伙有坑
 # 行
 a = a.repeat(5, axis=1)
 print(a)
